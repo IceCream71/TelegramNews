@@ -1,9 +1,9 @@
 # TelegramNews
 
-## About Data Set
+## About Data Set ##
 Data set has news posts of popular news agencies in the world which we use in our paper <link> for SIGIR 2019. The data has two parts, the one form Telegram, an Instant messaging service and the other one from Twitter.
 
-### Telegram
+### Telegram ###
 This set contains telegram news channels posts from their begining until October 8, 2017. We have use their 7 month intersect of BBC, CNN, Reuters, and Press TV in the paper.
 The data is in mongodb dump format (bson) and you can easily resoter it via `mongorestore` command and use it.
 For each post we have:
@@ -12,8 +12,8 @@ For each post we have:
 *entities: Entities which you can use in telegram for a post like image, video, mentions, hashtags, and links ( this could be empty )
 *channel: the post owner channel details
 
-**Note: **There is also available data for other news agancies.
-### Twitter
+**Note:** There is also available data for other news agancies.
+### Twitter ###
 
 
 
