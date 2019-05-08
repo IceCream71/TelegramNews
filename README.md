@@ -8,11 +8,12 @@ This set contains telegram news channels posts from their begining until October
 The data is in mongodb dump format (bson) and you can easily restore it via `mongorestore` command and use it.
 
 For each post we have:
-* date: The post's publish time
-* message: The post's text ( this could be empty )
-* entities: Entities which you can use in telegram for a post like image, video, mentions, hashtags, and links ( this could be empty )
+* date: The post's publish time.
+* message: The post's text ( this could be empty ).
+* entities: Entities which you can use in telegram for a post like image, video, mentions, hashtags, and links ( this could be empty ).
   * You can find out what could be in the message enity from [telegram schema definition(MessageEntity)](https://tjhorner.com/tl-schema/type/MessageEntity), and telegram's official [docs](https://core.telegram.org/schema).
-* channel: The post owner channel details
+* channel: The post owner channel details.
+* views: Number of unique telegram users whom sees the post.
 
 ### Twitter ###
 
