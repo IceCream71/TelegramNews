@@ -11,7 +11,7 @@ For each post we have:
 * date: The post's publish time
 * message: The post's text ( this could be empty )
 * entities: Entities which you can use in telegram for a post like image, video, mentions, hashtags, and links ( this could be empty )
-  * You can find out what could be in the message enity from [telegram schema definition/MessageEntity](https://tjhorner.com/tl-schema/type/MessageEntity), and telegram's official [docs](https://core.telegram.org/schema).
+  * You can find out what could be in the message enity from [telegram schema definition(MessageEntity)](https://tjhorner.com/tl-schema/type/MessageEntity), and telegram's official [docs](https://core.telegram.org/schema).
 * channel: The post owner channel details
 
 ### Twitter ###
