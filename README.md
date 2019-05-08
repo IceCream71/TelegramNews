@@ -11,12 +11,19 @@ For each post we have:
 * date: The post's publish time
 * message: The post's text ( this could be empty )
 * entities: Entities which you can use in telegram for a post like image, video, mentions, hashtags, and links ( this could be empty )
+  * You can find out what could be in the message enity from [telegram schema definition/MessageEntity](https://tjhorner.com/tl-schema/type/MessageEntity), and telegram's official [docs](https://core.telegram.org/schema).
 * channel: The post owner channel details
 
 ### Twitter ###
 
-The Twitter data is in csv format files.
+The Twitter data is in csv format files for each news agancy from March 8, 2017 to October 8, 2017.
 
+For each record we have:
+* id: The tweet's id.
+* created_at: The tweet's publish time
+* text: The tweets's text
+* favorites: The tweet's favorites number. 
+* retweets: The tweet's retweet number.
 
 ## References
 If you use our dataset or code, please cite our paper:
